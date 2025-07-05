@@ -103,6 +103,63 @@ h1 {
   transition: transform 0.3s;
 }
 
+
 .social-icons a:hover {
   transform: translateY(-4px);
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    margin-top: 0;
+    padding: 40px 20px 60px;
+  }
+
+  .hero-inner {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .mission {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .btn, .btn-outline {
+    width: 100%;
+    margin: 0;
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
+
+  .social-icons {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+  }
 }

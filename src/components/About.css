@@ -1,0 +1,39 @@
+.about {
+  padding: 80px 20px;
+  text-align: center;
+  background: #101010;
+  color: white;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #00ffee;
+}
+
+.about-box {
+  max-width: 800px;
+  margin: auto;
+  background: #151515;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Removed .avatar */
+
+.about-text p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-text span {
+  color: #00ffee;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+  background: #0d0d0d;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #00ffee;
+}
+
+.contact p {
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.contact-icons a {
+  color: #00ffee;
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.contact-icons a:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,82 @@
+.projects {
+  padding: 80px 20px;
+  background: #121212;
+  text-align: center;
+  color: white;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #00ffee;
+  margin-bottom: 30px;
+}
+
+/* Container includes padding to leave space for arrows */
+.projects-carousel-container {
+  position: relative;
+  max-width: 850px;
+  margin: auto;
+  padding: 0 60px; /* Leave room for left/right arrows */
+}
+
+/* Project card design */
+.project-card {
+  background: #1b1b1b;
+  padding: 30px;
+  border-radius: 12px;
+  border-left: 4px solid #00ffee;
+  box-shadow: 0 5px 30px rgba(0, 255, 255, 0.1);
+  text-align: left;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+/* Card content */
+.project-card h3 {
+  font-size: 1.4rem;
+  color: #00ffee;
+}
+
+.project-card p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.project-card span {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+/* Custom navigation arrows — placed outside the container */
+.custom-navigation {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  right: -50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-50%);
+  pointer-events: none; /* allow clicking only on arrow icons */
+}
+
+/* Arrow icons */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  font-size: 2.5rem;
+  color: #00ffee;
+  cursor: pointer;
+  pointer-events: all;
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+  transform: scale(1.2);
+}

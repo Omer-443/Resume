@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #101010;
+  color: #ffffff;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+header a {
+  color: #00ffee;
+  text-decoration: none;
+  margin: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}

@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 60px; /* Increased margin-top to avoid overlap with navbar */
 }
 
 .hero-inner {

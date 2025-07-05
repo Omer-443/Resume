@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 import profilePic from '../assets/omer.jpeg';
+import resumePDF from '../assets/Omer Faisal Resume.pdf';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { SiKaggle } from 'react-icons/si';
 
@@ -36,6 +37,7 @@ export default function Hero() {
         <div className="hero-buttons">
           <a href="#projects" className="btn">See My Work</a>
           <a href="mailto:official.omerfaisal@gmail.com" className="btn-outline">Contact Me</a>
+          <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="btn-outline">View Resume</a>
         </div>
 
         <div className="social-icons">
